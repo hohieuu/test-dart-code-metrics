@@ -14,5 +14,5 @@ jobs:
       - name: dcm
         uses: dart-code-checker/dart-code-metrics-action@v2
         with:
-          github_token: "${{ secrets.TOKEN }}"
+          github_token: "${{ secrets.GIT_TOKEN }}"
           pull_request_comment: true

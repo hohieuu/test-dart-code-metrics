@@ -18,5 +18,4 @@ jobs:
           pull_request_comment: true  
           fatal_warnings: true
           fatal_performance: true
-          fatal_performance: true
           fatal_style: true
